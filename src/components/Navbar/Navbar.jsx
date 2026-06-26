@@ -12,21 +12,21 @@ const Navbar = () => {
       <Search />
 
       <Button
-        variant="contained"
-        sx={{
-          backgroundColor: "#121212",
-          color: "#34C94B",
-          textTransform: "none",
-          borderRadius: "12px",
-          padding: "10px 18px",
-          fontWeight: 600,
-          "&:hover": {
-            backgroundColor: "#121212",
-          },
-        }}
-      >
-        Give Feedback
-      </Button>
+  variant="contained"
+  sx={{
+    backgroundColor: "#121212",
+    color: "#34C94B",
+    textTransform: "none",
+    borderRadius: "12px",
+    fontFamily: "'Poppins', sans-serif",   
+    fontWeight: 600,
+    "&:hover": {
+      backgroundColor: "#121212",
+    },
+  }}
+>
+  Give Feedback
+</Button>
     </nav>
   );
 };
