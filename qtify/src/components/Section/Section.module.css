@@ -1,0 +1,31 @@
+.section {
+  background: #121212;
+  padding: 24px 32px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header h2 {
+  color: white;
+  margin: 0;
+}
+
+.toggleBtn {
+  background: transparent;
+  border: none;
+  color: #34c94b;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

@@ -1,0 +1,21 @@
+.hero {
+  background-color: #121212;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  min-height: 270px;
+}
+
+.heroText h1 {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin: 0;
+}
+
+.heroImage img {
+  width: 260px;
+  height: auto;
+}
