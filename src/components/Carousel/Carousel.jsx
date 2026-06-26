@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import styles from "./Carousel.module.css";
+//import styles from "./Carousel.module.css";
 
 const Carousel = ({ data, renderComponent }) => {
   return (

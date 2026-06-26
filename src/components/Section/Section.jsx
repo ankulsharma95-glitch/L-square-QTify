@@ -34,7 +34,7 @@ const Section = ({ title, endpoint }) => {
 };
 
 fetchAlbums();
-  }, [endpoint]);
+  }, [endpoint, isSongsSection]);
 
   const displayData =
   isSongsSection && selectedGenre !== "all"
