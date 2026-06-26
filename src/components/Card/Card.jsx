@@ -2,7 +2,16 @@ import React from "react";
 import Chip from "@mui/material/Chip";
 import styles from "./Card.module.css";
 
-const Card = ({ image, title, follows }) => {
+const Card = ({
+  image,
+  title,
+  follows,
+  likes,
+  isSong = false,
+}) => {
+  const value = isSong ? likes : follows;
+  const label = isSong ? "Likes" : "Follows";
+
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
@@ -10,11 +19,11 @@ const Card = ({ image, title, follows }) => {
 
         <div className={styles.chipContainer}>
           <Chip
-            label={`${follows} Follows`}
+            label={`${value} ${label}`}
             size="small"
             sx={{
               backgroundColor: "#121212",
-              color: "#FFFFFF",
+              color: "#fff",
               fontSize: "10px",
             }}
           />
